@@ -9,5 +9,8 @@ http.createServer((req, res) => {
     counts[req.url] = 0;
   }
   counts[req.url]++;
-  res.end('');
+  res.writeHead(200, {
+   'Content-Type': 'image/svg+xml'
+  });
+  res.end('<svg xmlns="http://www.w3.org/2000/svg" />');
 }).listen(process.env.PORT || 8000);
