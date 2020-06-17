@@ -1,0 +1,20 @@
+{
+  "name": "traffic-counter",
+  "version": "1.0.0",
+  "description": "We want to get a rough idea of hits per day on tosdr.org and tosback.org. No identifiable info will be tracked, just number of hits on index.html. This will be hosted on Heroku and we'll remove it again once we have a measurement, and then also publish the conclusions! :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosdr/traffic-counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tosdr/traffic-counter/issues"
+  },
+  "homepage": "https://github.com/tosdr/traffic-counter#readme"
+}
